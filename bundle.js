@@ -123,7 +123,7 @@
             }
 
             function o(e) {
-                e || (e = {}), n() && navigator.serviceWorker.register("\\sw.js")
+                e || (e = {}), n() && navigator.serviceWorker.register("/sw.js")
             }
 
             function a(e, t) {
