@@ -1,0 +1,74 @@
+/*
+ * Copyright (c) 2016. Winning Health Technology Group Co.,Ltd. All Rights Reserved
+ */
+
+.app-font-size{
+    font-size: 16px;
+}
+/*底部按钮样式*/
+.bottom_content {
+    z-index: 999;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    _position: absolute;
+    /* _top: expression(documentElement.scrollTop +
+          documentElement.clientHeight-this.offsetHeight);*/
+    overflow: visible;
+    font-family: "Microsoft YaHei" ! important;
+    background-color: #FFFFFF;
+    height: 40px;
+    line-height: 40px;
+    border-top: solid 1px #eee;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    text-align: center;
+}
+/*底部按钮样式*/
+.bottom_btn{
+    width: 100%;
+}
+/*底部按钮样式*/
+.app-btn-default {
+    background-color: #EB6841;
+    color: #ffffff;
+    font-size:18px;
+}
+
+
+.input-img-content{
+    text-align: right;
+}
+.input-img{
+    width: 9px;
+    height: auto;
+}
+
+.detail-row {
+    height: 46px;
+    line-height: 46px;
+}
+
+.panel{
+    border-width: 0px;
+    margin:10px 0px;
+}
+
+.app-form-control{
+    height: 43px;
+    line-height: 43px;
+    border:none;
+   /* margin:1px 0px;*/
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.detail-lable{
+    padding-right: 0px;
+}
+
+.detail-input{
+    padding-left: 0px;
+}
+
