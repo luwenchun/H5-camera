@@ -64,7 +64,7 @@
 
                     var i = !1;
                     window.iOS ? a.webcam = document.querySelector("img") : a.webcam = document.querySelector("video"),
-                    a.setCanvas(), a.decoder = new Worker("layouts-medicalcareapp/scripts/decoder.min.js"),
+                    a.setCanvas(), a.decoder = new Worker("decoder.min.js"),
                     window.iOS ? e() : a.webcam.addEventListener("play", function (t) {
                          i || (e(), i = !0)
                         }, !1),
