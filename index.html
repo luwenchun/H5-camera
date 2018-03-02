@@ -82,13 +82,7 @@
         initSaoYiSao.prototype.initValue = function(){
              $(".app__dialog-open").click(function(){
                 var urlParms = $("#result").text();
-                $.getJSON("http://172.16.140.201:8089/medicalcareapp-web/home.do?action=signIn",{lsh:"",yngrbsh:urlParms},function(data){
-                    if(data.code == "T"){
-                        location.href = "http://172.16.140.201:8089/medicalcareapp-web/register.do?action=taskLog&yngrbsh="+urlParms;
-                    }else{
-
-                    }
-                });
+                 location.href = "http://172.16.140.201:8089/medicalcareapp-web/register.do?action=taskLog&yngrbsh="+urlParms;
             })
         }
         return initSaoYiSao;
