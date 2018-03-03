@@ -13,13 +13,14 @@
     <meta name="msapplication-TileColor" content="#e4e4e4">
     <meta name="msapplication-TileImage" content="/images/touch/mstile-150x150.png">
     <meta name="theme-color" content="#fff">
-  <link rel="apple-touch-icon" href="/images/touch/apple-touch-icon.jpg">
+  <!-- <link rel="apple-touch-icon" href="/images/touch/apple-touch-icon.jpg">
     <link rel="icon" type="image/png" href="/images/touch/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/images/touch/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/images/touch/favicon-16x16.png" sizes="16x16"> -->
     <!-- <link rel="shortcut icon" href="/images/touch/favicon.ico"> -->
-    <link rel="manifest" href="/manifest.json">
+  <!--   <link rel="manifest" href="/manifest.json"> -->
     <link href="bundle.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <link href="detail.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
 </head>
 <body>
@@ -83,7 +84,7 @@
         initSaoYiSao.prototype.initValue = function(){
              $(".app__dialog-open").click(function(){
                 var urlParms = $("#result").text();
-                 location.href = "http://172.16.140.201:8089/medicalcareapp-web/register.do?action=taskLog&yngrbsh="+urlParms;
+                 location.href = "http://203.110.176.181:8090/hns/medicalcareapp-web/register.do?action=taskLog&yngrbsh="+urlParms;
             })
         }
         return initSaoYiSao;
